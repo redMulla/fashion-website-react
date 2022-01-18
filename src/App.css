@@ -17,29 +17,63 @@
     font-size: 3rem;
 }
   
-/*.services {
-    background-image: url('/images/img-2.jpg');
+.clothing {
+    background-image: url('../public/images/woman-handbag.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
+    text-shadow: 3px 2px 10px #000;
 }
-  
-.products {
-    background-image: url('/images/img-1.jpg');
+
+.accessories {
+    background-image: url('../public/images/men-shoes-shirt.jpg');
     background-position: center;
-    background-size: fill;
+    background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
+    text-shadow: 3px 2px 30px #000;
 }
   
+.perfumes {
+    background-image: url('../public/images/colognes.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    text-shadow: 3px 2px 20px #000;
+}
+
 .sign-up {
-    background-image: url('/images/img-8.jpg');
+    background-image: url('../public/images/shoping.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
-} */
+    text-shadow: 3px 2px 10px #000;
+}
+
+ 
+@media screen and (max-width: 820px) {
+    .home,
+    .clothing,
+    .accessories,
+    .perfumes,
+    .sign-up {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .home,
+    .clothing,
+    .accessories,
+    .perfumes,
+    .sign-up {
+        font-size: 50px;
+    }
+}
